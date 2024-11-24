@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+}
+h1{
+    color: rgb(47, 47, 51);
+    font-style: initial;
+    text-align: center;
+}
+.box1{
+    height: 400px;
+    width: 320px;
+    background-color: rgb(100, 100, 128);
+    padding: 15px;
+    align-content: center;
+    color: white;
+   position: relative;
+   left: 300px;
+   top: 80px;
+   border-radius: 50px;
+   margin: 7px;
+}
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-style: oblique;
+    padding: 10px;
+    background-color: #283836;
+}
+
+button:hover {
+    background-color: #3a9396;
+}
+.results {
+    margin: 7px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(100, 100, 128);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: none; 
+    height: 400px;
+    position: relative;
+    width: 320px;
+    left: 500px;
+   top: 80px;
+    color: black;
+   border-radius: 50px;
+
+}
+.result p {
+    margin: 5px 0;
+}
